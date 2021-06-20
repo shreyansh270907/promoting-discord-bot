@@ -17,7 +17,7 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('CREATED AND HOSTED BY SUBHANKAR DAS')
+    print('CREATED AND HOSTED BY HACKER GOD')
 
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     
@@ -44,4 +44,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run ("ODQ4MjI5NDk2ODU4NDc2NTU0.YLJlRw.nBqDStVxIUEZpXifJMU8OV6RDWk")                
+client.run("ODU2MTg2MjU3OTEzNjc1Nzk2.YM9Xlw.I6JbvfuV6NgVHV3hdU6DJuCCRE8")                
